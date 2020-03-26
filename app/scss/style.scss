@@ -3,6 +3,7 @@
 @import "fonts";
 @import "media";
 @import "header";
+@import "section_1";
 
 // ---------------- Display --------------------------
 html {
@@ -23,8 +24,9 @@ header{
 }
 
 h1 {
-    font-size: 2rem;
-    color: #222;
+    color: #fff;
+    font-family: FiraSans_medium;
+    font-size: 5rem;
 }
 
 p {
@@ -36,14 +38,11 @@ p {
 // ---------------- Display --------------------------
 
 .sect0_title{
-    position: absolute;
-    top: 100vh;
+    padding: 100px 0 100px 0;
+    @include margin_left_base($marg_l_b);
     color: #fff;
     font-family: FiraSans_light;
     font-size: 30px;
-    @media (max-height: 800px) {
-        top: 800px;
-      }
 }
 
 

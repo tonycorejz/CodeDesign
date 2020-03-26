@@ -1,0 +1,8 @@
+$marg_l_b: 70px;
+
+@mixin margin_left_base($property) {
+    margin-left: $property;
+    @media screen and (min-width: 2300px){
+        margin-left: $property*2;
+    }
+  }
